@@ -74,6 +74,7 @@ libNixName "png"                                = return "libpng"
 libNixName "poppler-glib"                       = return "popplerGlib"
 libNixName "pq"                                 = return "postgresql"
 libNixName "pthread"                            = []
+libNixName "sane-backends"                      = return "saneBackends"
 libNixName "sndfile"                            = return "libsndfile"
 libNixName "sqlite3"                            = return "sqlite"
 libNixName "ssl"                                = return "openssl"

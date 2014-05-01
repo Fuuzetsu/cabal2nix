@@ -30,6 +30,4 @@ main = do
              , "src/Distribution/NixOS/PrettyPrinting.hs"
              ]
   doctest $ "src/cabal2nix.hs" : libs
-  doctest $ "src/hackage4nix.hs" : libs
   doctest $ "src/hackage2nix.hs" : libs
-  doctest $ "src/pkglist.hs" : libs
